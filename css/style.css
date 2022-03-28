@@ -1,0 +1,197 @@
+/* CSS Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+}
+/* Utilty classes */
+.container {
+  background: rgba(0, 0, 0, 0.4);
+  height: 100%;
+  width: 100%;
+}
+.glow-text {
+  color: #f56f21;
+  font-size: 5rem;
+  margin-bottom: 1rem;
+}
+.glow-text-normal{
+  color: #f56f21;
+  font-size: 1.2rem;
+}
+.btn {
+  background: #f56f21;
+  color: #fff;
+  padding: 0.5rem 1.5em;
+  border: none;
+  border-radius: 0.3em;
+  margin: 1rem 1rem;
+}
+.btn:hover {
+  background: #d8580e;
+  color: #ddd;
+}
+.btn-dark {
+  background-color: #d8580e;
+  color: #ddd;
+}
+.font-awesome {
+  width: 4rem;
+}
+strong {
+  color: #f56f21;
+  font-size: 2rem;
+}
+/* styling */
+body {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  line-height: 1.4;
+}
+/* Navigation */
+#nav-bar{
+  position: sticky;
+  top: 0;
+  background: #f56f21;
+  display: flex;
+  justify-content: space-between;
+}
+#nav-bar img {
+  margin: 0.4rem 0.6rem 0 0.6rem; 
+  width: 6rem;
+}
+#nav-bar ul {
+  display: flex;
+  list-style: none;
+}
+#nav-bar ul li {
+  margin: auto 0.8rem;
+}
+#nav-bar ul li a {
+  border-radius: 3px;
+  padding: 0.6rem;
+  color: black;
+}
+#nav-bar ul li a:hover,
+#nav-bar ul li a.activ {
+  background: #000;
+  color: #ddd;
+}
+
+
+/* Showcase */
+#show-case {
+  height: 100vh;
+  background: url("https://images.ctfassets.net/rporu91m20dc/1GH2caTmlaKxuPKBi1bOTb/6dd45f4758ecb50902ce49d8102534a5/DE_The_DOOM_Slayer_HERO_2_1920x870.jpg?q=70&&&fm=webp") no-repeat center center/cover;
+  color: #ddd;
+}
+#show-case .container {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+#show-case .container h1 {
+  font-size: xx-large;
+}
+#show-case .container p {
+  margin: 0 1rem;
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+/* Features */
+#features .features-content {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  flex-wrap: wrap;
+}
+#features .features-content .box {
+  width: 33%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem;
+}
+#features .heading {
+  text-align: center;
+  padding: 2rem;
+  font-size: xx-large;
+  background-color: #222;
+  color: #fff;
+}
+
+/* footer */
+footer {
+  height: 10vh;
+  background-color: #222;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ddd;
+}
+
+/* Contact Page */
+/* Form */
+#contact-page p{
+  margin: 1rem;
+  font-size: 1.3rem;
+  text-align: center;
+}
+#contact-page form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#contact-page form input{
+  height: 30px;
+  padding: 0.3rem;
+}
+#contact-page form textarea{
+  height: 50px;
+  width: 183px;
+}
+#contact-page form input:focus,
+#contact-page textarea:focus{
+  outline:none;
+  border: 2px #f56f21 solid;
+  border-radius: 3px;
+}
+form div label{
+  display: block;
+  margin: 0.5rem 0;
+}
+
+/* Submit */
+
+#submit-page{
+  text-align: center;
+  margin: 1rem;
+}
+#submit-page p , #submit-page a{
+  margin: 1rem;
+}
+
+/* About */
+#about{
+  margin :1rem;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap; 
+}
+#about img{
+  max-height: 356px;
+  max-width: 500px;
+  margin: 1rem;
+  border-radius: 20%;
+}
+#about p{
+  padding: 1rem;
+  border: 2px #f56f21 solid;
+}

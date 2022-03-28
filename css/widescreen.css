@@ -1,0 +1,14 @@
+#features .features-content .box{
+    flex-direction: row;
+}
+#features .features-content img{
+    margin: 1rem;
+}
+
+#about{
+  margin :1rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  flex-wrap: nowrap;
+  }

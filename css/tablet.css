@@ -1,0 +1,6 @@
+#features .features-content {
+    flex-direction: column;
+  }
+#features .features-content .box{
+    width: auto;
+}

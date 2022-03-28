@@ -1,0 +1,36 @@
+@media screen and (max-width:410px) {
+    /* Navigation bar */
+    #nav-bar{
+        flex-direction: column;
+        align-items: center;
+    }
+    #nav-bar img{
+        width:5rem;
+        margin-bottom: 1rem;
+    }
+    #nav-bar ul{
+        margin-bottom: 1rem;
+    }
+    
+    /* ShowCase */
+    #show-case .container{
+        margin-top: -1.7rem;
+    }
+    .glow-text {
+        color: #f56f21;
+        font-size: 4rem;
+        margin-bottom: 1rem;
+      }
+    
+    /* Features */
+    #features .features-content {
+        flex-direction: column;
+    }
+    #features .features-content .box {
+        width: auto;
+    }
+}
+
+#about img{
+    max-width: 300px;
+}
